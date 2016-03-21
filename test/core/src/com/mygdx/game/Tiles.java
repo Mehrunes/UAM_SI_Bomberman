@@ -28,6 +28,7 @@ public class Tiles extends ApplicationAdapter implements InputProcessor {
         float w = Gdx.graphics.getWidth();
         float h = Gdx.graphics.getHeight();
         
+
         camera = new OrthographicCamera();
         camera.setToOrtho(false,0.7f*w,0.94f*h);
         camera.update();
